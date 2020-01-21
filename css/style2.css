@@ -1,0 +1,74 @@
+/* feuille de style vincentresto02 */
+
+body{
+    background: oldlace;
+    margin: 0 auto;
+
+    text-align: center;
+    width: 1000px;
+}
+
+header{
+    background-image: url(../img/planches.jpg);
+    width: 1000px;
+    height: 400px;
+}
+
+section{
+    height: 500px;
+    float: left;
+}
+
+
+
+footer{
+    background: olive;
+    width: 1000px;
+    height: 400px;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+
+#zoning5{
+    background: #ecebe9;
+}
+#zoning5 header{
+    background: #f8d771;
+    height: 100px;
+}
+#zoning5 nav{
+    background: lightskyblue;
+    height: 20%;
+    border-bottom: none;
+}
+
+#zoning5 .section{
+    padding: 0;
+}
+
+#zoning5 section .z1, .z2, .z3, .z4{
+    float: left;
+    height: 250px;
+}
+
+#zoning5 section .z1, .z4{
+    background: pink;
+    width: 500px;
+
+}
+
+
+#zoning5 section .z2, .z3{
+    background: #f8d771;
+    width: 500px;
+
+}
+
+#zoning5 footer{
+    background: lightskyblue;
+}

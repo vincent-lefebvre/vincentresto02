@@ -1,0 +1,56 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+#zoning5{
+    width: 1000px;
+}
+#zoning5 header{
+    background-image: url(../img/planches.jpg);
+    height: 600px;
+}
+#zoning5 nav{
+    background: lightskyblue;
+    height: 50px;
+}
+
+#zoning5 .section{
+    padding: 0;
+}
+
+#zoning5 section .z1, .z2, .z3, .z4{
+    float: left;
+    height: 500px;
+}
+
+#zoning5 section .z1, .z4{
+    background: pink;
+    width: 50%;
+
+}
+
+
+#zoning5 section .z2, .z3{
+    background: #f8d771;
+    width: 500px;
+    height: 500px;
+
+}
+
+#zoning5 footer{
+    background: brown;
+    height: 300px;
+    float: left;
+    width: 100%;
+
+}
+
+.oeuf{
+    width: 1000px;
+    height: 600px;
+}
+.clear{
+    clear: both;
+}
