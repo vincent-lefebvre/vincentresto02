@@ -1,0 +1,64 @@
+body {
+    background-color: #50D890;
+    font-family: 'Caveat Brush', cursive;
+}
+#conteneur {
+    margin: 0 auto;
+    width: 800px;
+    background: url(../img/motif.jpg);
+    text-align: center;
+}
+
+/* en-tête de la page */
+header {
+    background: url(../img/planches.jpg);
+    height: 400px;
+}
+
+h1{
+    float: left;
+    margin: 50px;
+}
+
+nav{
+    float: right;
+    margin: 50px;
+}
+
+.zone{
+    float: left;
+}
+
+.story{
+    width: 320px;
+}
+
+.fare{
+    width: 294px;
+}
+
+.drink{
+    width: 343px;
+}
+/* pied de page */
+footer {
+    height: 150px;
+}
+
+.clear{
+    clear: both;
+}
+.cerf img {
+    z-index: 2;
+    position: relative;
+    left: 60px;
+}
+#triangle {
+    z-index: 1;
+    border-top : 100px solid #CC0066;
+    border-left : 100px solid transparent;
+    display : inline-block;
+    position: relative;
+    top: -60px;
+    right: 90px;
+}
